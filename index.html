@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="https://wallpaperaccess.com/full/30632.jpg" id="bg-img">
+<h1 id = "title">Just Another Survey Form</h1>
+<p id = "description">Thank You for taking the time to look at this absolutely uselss form.</p>
+<div id = "form-div">
+  <form action="#">
+    <label for="name" id="name-label">
+      Name
+    </label>
+    <br>
+    <input type="text" name= "name" id = "name" required placeholder="Enter your name">
+    <label for="email" id = "email-label">
+      <p>E-mail</p>
+    </label>
+    <input type="email" id = "email" required placeholder="Enter your email">
+    <label for="age" id = "age-label">
+      <p>Age (Optional)</p>
+    </label>
+    <input type="number" id = "age" name= "age" min = "10" max = "99" placeholder = "Enter your age">
+    <label for="dropdown" id = "dropdown-label"><p>How do you read mangas ?</p></label>
+    <select name="dropdown" id="dropdown">
+      <option value="" disabled selected>
+        --Select an option--
+      </option>
+      <option value = "free-pirated">
+        Free(Pirated)
+      </option>
+      <option value="free-official">
+        Free(Official)
+      </option>
+      <option value="paid-sc">
+        Paid Softcopy
+      </option>
+      <option value="paid-hc">
+        Paid Hardcopy
+      </option>
+    </select>
+    <p id = "idk">Select an option</p>
+    <label for="good" id = "good-radio-label">Good</label>
+    <input type="radio" id = "good" name = "rate" value = "good">
+    <br>
+    <label for="okay" id = "okay-radio-label">Okay</label>
+    <input type="radio" id = "okay" name = "rate" value = "okay">
+    <br>
+    <label for="bad" id = "bad-radio-label"> Bad</label>
+    <input type="radio" id = "bad" name = "rate" value = "bad">
+    <p id = "idk">Select your favourite anime/manga genres</p>
+    <label for="romance">
+      Romance
+    </label>
+    <input type="checkbox" name = "favgenre" id = "romance" value = "romance">
+    <br>
+    <label for="comedy">
+      Comedy
+    </label>
+    <input type="checkbox" name = "favgenre" id = "comedy" value = "comedy">
+    <br>
+    <label for="action">
+      Action
+    </label>
+    <input type="checkbox" name = "favgenre" id = "action" value = "action">
+    <br>
+    <label for="thriller">
+      Thriller
+    </label>
+    <input type="checkbox" name = "favgenre" id = "thriller" value = "thriller">
+    <br>
+    <label for="horror">
+      Horror
+    </label>
+    <input type="checkbox" name = "favgenre" id = "horror" value = "horror">
+    <br>
+    <label for="scifi">
+      Sci-Fi
+    </label>
+    <input type="checkbox" name = "favgenre" id = "scifi" value = "scifi">
+    <br>
+    <label for="mystery">
+      Mystery
+    </label>
+    <input type="checkbox" name = "favgenre" id = "mystery" value = "mystery">
+    <p id = "idk">Any comments or suggestions ? </p>
+    <textarea name="comments" id="comments" cols="100" rows="5" placeholder = "Enter comments"></textarea>
+    <input type="submit" id = "submit">
+  </form>
+</div>
+    </body>
+</html>
